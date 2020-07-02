@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './cart-item.styles.scss';
-import CartActionTypes from '../../redux/cart/cart.types';
 
 const CartItem = ({ item: { imageUrl, price, name, quantity } }) => (
     <div className='cart-item'>
